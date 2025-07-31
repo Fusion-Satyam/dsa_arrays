@@ -8,7 +8,7 @@ public class ReverseArray {
             int temp = arr[low];
             arr[low]= arr[high];
             arr[high] = temp;
-            low++;
+            low++; 
             high--;
         }
         return arr;
